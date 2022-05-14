@@ -14,7 +14,7 @@ function Navbar() {
       </nav>
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#"><img className='saylani-logo' src={logo} alt="saylani-logo" /></a>
+          <a className="navbar-brand" href="/"><img className='saylani-logo' src={logo} alt="saylani-logo" /></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -28,7 +28,7 @@ function Navbar() {
             </div>
           </div>
           <Link to="Login"><button type="button" className="btn btn-secondary mx-1">Login </button></Link>
-          <Link to="signup"><button type="button" className="btn btn-secondary mx-1">Signup</button></Link>
+         
           <Link to="courses"><button type="button" className="btn btn-danger mx-1">New Courses</button></Link>
         </div>
       </nav>

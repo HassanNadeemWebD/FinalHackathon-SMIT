@@ -2,6 +2,7 @@ import { initializeApp } from "firebase/app";
 import {getAuth ,GoogleAuthProvider , signInWithPopup } from "firebase/auth";
 
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyBddlDkPMTa4iRCknchzzW5NGhT8T8W3Uc",
   authDomain: "smit-webapp.firebaseapp.com",
@@ -27,7 +28,6 @@ export const signInWithGoogle = ()=> {
         console.log(result);
       const user = result.user;
         console.log(user)
-        
         const email = result.user.email;
         const profilePic = result.user.photoURL;
         

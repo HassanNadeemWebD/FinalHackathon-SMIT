@@ -8,6 +8,7 @@ import Courses from './components/Courses/Courses';
 import Contact from './components/Contact/Contact'
 import Login from './components/Login/Login';
 import Signup from './Signup/Signup';
+import Admin from './Admin/Admin';
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <Route path="contact" element={<Contact />} />
       <Route path="login" element={<Login />} />
       <Route path="login" element={<Signup />} />
+      <Route path="admin" element={<Admin />} />
      </Routes>
     </div>
   );
