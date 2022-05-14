@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div>
 
-      <nav className="navbar bg-dark">
+      <nav className="navbar bg-dark ">
         <div className="container">
           <span className="navbar-brand mb-0 h1 text-light " style={{ alignItems: 'center', width: '100%' }}>WELCOME TO SAYLANI WEB APP</span>
         </div>
@@ -27,9 +27,9 @@ function Navbar() {
               {/* <Link className="nav-link disabled">Disabled</Link> */}
             </div>
           </div>
-          <Link to="/Login"><button type="button" className="btn btn-secondary mx-1">Login </button></Link>
-          <button type="button" className="btn btn-secondary mx-1">Signup</button>
-          <button type="button" className="btn btn-danger mx-1">New Courses</button>
+          <Link to="Login"><button type="button" className="btn btn-secondary mx-1">Login </button></Link>
+          <Link to="signup"><button type="button" className="btn btn-secondary mx-1">Signup</button></Link>
+          <Link to="courses"><button type="button" className="btn btn-danger mx-1">New Courses</button></Link>
         </div>
       </nav>
 
