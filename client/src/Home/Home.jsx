@@ -1,10 +1,7 @@
 import React from 'react'
 import './Home.scss'
-import logoEhsaanSaylani from '../../images/EhsaanSaylani.jpeg'
-import ehsaasSaylani from '../../images/ehsaas&saylani.jpeg'
-
-
-
+import logoEhsaanSaylani from '../images/EhsaanSaylani.jpeg'
+import ehsaasSaylani from '../images/ehsaas&saylani.jpeg'
 
 
 function Home() {

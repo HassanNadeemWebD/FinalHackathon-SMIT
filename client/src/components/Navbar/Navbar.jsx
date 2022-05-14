@@ -27,7 +27,7 @@ function Navbar() {
               {/* <Link className="nav-link disabled">Disabled</Link> */}
             </div>
           </div>
-          <button type="button" className="btn btn-secondary mx-1">Login</button>
+          <Link to="/Login"><button type="button" className="btn btn-secondary mx-1">Login </button></Link>
           <button type="button" className="btn btn-secondary mx-1">Signup</button>
           <button type="button" className="btn btn-danger mx-1">New Courses</button>
         </div>
