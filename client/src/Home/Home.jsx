@@ -38,6 +38,10 @@ function Home() {
       <span className="carousel-control-next-icon" aria-hidden="true"></span>
       <span className="visually-hidden">Next</span>
     </button>
+
+
+  <div className="fb-page" data-href="https://www.facebook.com/SaylaniMassTraining/" data-tabs="timeline" data-width="1024" data-height="786" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/SaylaniMassTraining/" className="fb-xfbml-parse-ignore" data-tabs="timeline"><a href="https://www.facebook.com/SaylaniMassTraining/" data-tabs="timeline">Saylani Welfare Mass Training &amp; Job Creation Program</a></blockquote></div>
+
   </div>
   )
 }

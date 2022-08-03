@@ -21,8 +21,8 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
 
             <div className="navbar-nav">
-              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-              <Link className="nav-link" to="/courses">Courses</Link>
+              <Link className="nav-link " aria-current="page" to="/">Home</Link>
+              <Link className="nav-link " to="/courses">Courses</Link>
               <Link className="nav-link" to="/contact">Contact</Link>
               {/* <Link className="nav-link disabled">Disabled</Link> */}
             </div>

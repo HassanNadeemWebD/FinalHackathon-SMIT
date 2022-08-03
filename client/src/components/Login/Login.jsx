@@ -23,7 +23,7 @@ function Login() {
       <button type="submit" className="btn btn-primary">Login</button>
       <div id="emailHelp" className="form-text">Don't Have An Account?</div>
     </form>
-      <button type="button" className="login-with-google-btn my-1" onClick={signInWithGoogle}   >
+      <button type="button" className="login-with-google-btn my-1" onClick={signInWithGoogle}>
         Sign in with Google
       </button>
       {/* <button  className="btn btn-primary " onClick={signInWithGoogle}>Login with Google</button> */}
